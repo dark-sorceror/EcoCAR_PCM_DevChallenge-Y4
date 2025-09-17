@@ -51,7 +51,7 @@ After completing the base challenge:
 
 ## Need More Details?
 For full instructions, diagrams, and requirement details, **please read the complete guide**:  
-**DevChallenge Year 4 Writeup FINAL.docx**
+**EcoCAR_PCM Development Challenge_Fall 2025.pdf**
 
 ---
 
