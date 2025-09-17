@@ -23,8 +23,8 @@ The ETRS system replaces traditional mechanical linkages with electronic control
 - **Requirements File**: `DevChallengeETRSReqs.slreqx` – All requirements to validate.
 - **Test Suite**: `ETRSTests.mldatx` – Preconfigured tests for requirement verification.
 - **Input Data**: `ETRSInputs.mat` – Pre-mapped inputs for running tests.
-- **Guide**: *DevChallenge Year 4 Writeup FINAL.docx* – Complete instructions for setup, testing, and submission.
-
+- **Guide**: *McMaster EcoCAR_PCM Development Challenge_Fall 2025.pdf* – Complete instructions for setup, testing, and submission.
+- **Guide**: *Using the Requirements and Simulink Test Toolboxes.pdf* - Complete instructions for working with Simulink Test Manager and the Requirements Toolbox
 ---
 
 ## Getting Started
