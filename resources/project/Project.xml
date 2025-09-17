@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="test">
+                <Info Name="Test" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+        </Category>
+    </Categories>
+    <Files Location="Root">
+        <File Location="supportingfiles">
+            <File Location="ETRSInputs.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info/>
+            <File Location="ETRSTests~mldatx.slmx">
+                <Info/>
+            </File>
+            <File Location="ETRSTests.mldatx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="test"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="DevChallengeETRSReqs.slreqx">
+                <Info/>
+            </File>
+            <File Location="ETRSInputs_Plot_Image.bmp">
+                <Info/>
+            </File>
+        </File>
+        <File Location="doc">
+            <File Location="McMaster EcoCAR_PCM Development Challenge_Fall 2025.pdf">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="artifact"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info/>
+            <File Location="Using the Requirements and Simulink Test Toolboxes.pdf">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="artifact"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="model">
+            <Info/>
+            <File Location="DevChallengeETRS.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+        </File>
+        <File Location=".gitattributes">
+            <Info/>
+        </File>
+        <File Location=".gitignore">
+            <Info/>
+        </File>
+    </Files>
+    <ProjectPath Location="Root">
+        <Reference Location="19f415c8-41d1-41b3-b8f9-603bb3968c73">
+            <Info Ref="model" Type="Relative"/>
+        </Reference>
+        <Reference Location="7cd33154-b005-432a-b746-f5e6b8ba25a9">
+            <Info Ref="doc" Type="Relative"/>
+        </Reference>
+        <Reference Location="a5bc7a55-6839-4727-bcee-c02809d5e4f9">
+            <Info Ref="supportingfiles" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+    <EnvironmentCustomizations Location="Root">
+        <Command Location="project_services.TraceArtifacts">
+            <Info Value="true"/>
+        </Command>
+    </EnvironmentCustomizations>
+    <Info Location="ProjectData">
+        <Info Name="DevChallenge2025"/>
+    </Info>
+    <ProjectData Location="Root"/>
+    <Extensions Location="Root"/>
+    <EntryPoints Location="Root"/>
+</project>
