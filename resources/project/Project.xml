@@ -118,4 +118,10 @@
     <ProjectData Location="Root"/>
     <Extensions Location="Root"/>
     <EntryPoints Location="Root"/>
+    <Files Location="ALM">
+        <Info DigitalThread_ArtifactTracking="true"/>
+        <DIR_SIGNIFIER Location="1">
+            <Info/>
+        </DIR_SIGNIFIER>
+    </Files>
 </project>
