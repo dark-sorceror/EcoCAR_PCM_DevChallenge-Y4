@@ -55,6 +55,34 @@
             <File Location="ETRSInputs_Plot_Image.bmp">
                 <Info/>
             </File>
+            <File Location="Copy_of_ETRSInputs.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Copy_2_of_ETRSInputs.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Copy_3_of_ETRSInputs.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="Copy_4_of_ETRSInputs.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
         </File>
         <File Location="doc">
             <File Location="McMaster EcoCAR_PCM Development Challenge_Fall 2025.pdf">
